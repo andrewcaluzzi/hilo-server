@@ -1,0 +1,5 @@
+arcium_api:
+    resource: "@ArciumApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
