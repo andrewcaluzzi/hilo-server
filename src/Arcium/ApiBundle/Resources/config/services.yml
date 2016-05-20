@@ -1,4 +1,6 @@
 services:
-#    arcium_api.example:
-#        class: Arcium\ApiBundle\Example
-#        arguments: ["@service_id", "plain_value", %parameter%]
+    arcium_api.game_service:
+        class: Arcium\ApiBundle\Services\GameService
+
+    arcium_api.user_service:
+        class: Arcium\ApiBundle\Services\UserService
