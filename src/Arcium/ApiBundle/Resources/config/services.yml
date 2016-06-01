@@ -1,6 +1,8 @@
 services:
     arcium_api.game_service:
         class: Arcium\ApiBundle\Services\GameService
+        arguments: [@doctrine.orm.entity_manager]
 
     arcium_api.user_service:
         class: Arcium\ApiBundle\Services\UserService
+        arguments: [@doctrine.orm.entity_manager]
